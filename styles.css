@@ -2,22 +2,18 @@
 a:link {
    color: #283618 
 }
-
 /* visited link */
 a:visited {
   color: #445128
 }
-
 /* mouse over link */
 a:hover {
   color: #283618;
 }
-
 /* selected link */
 a:active {
   color: #283618;
 }
-
 
 body {
     margin: 0;
@@ -25,6 +21,7 @@ body {
     text-align: center;
     font-family: 'Bitter', Georgia, serif;
     color: #283618;
+    background-color: #bc6c25;
 }
 
 #hero {
