@@ -1,0 +1,132 @@
+/* unvisited link */
+a:link {
+   color: #283618 
+}
+
+/* visited link */
+a:visited {
+  color: #445128
+}
+
+/* mouse over link */
+a:hover {
+  color: #283618;
+}
+
+/* selected link */
+a:active {
+  color: #283618;
+}
+
+
+body {
+    margin: 0;
+    text-align: center;
+    text-align: center;
+    font-family: 'Bitter', Georgia, serif;
+    color: #283618;
+}
+
+#hero {
+    color: whitesmoke;
+    background-image: url("images/NorwichStorefronts.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 400px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#heroTitle {
+    background: #283618;
+    margin: 0% 30% 0%;
+    padding: 1% 2%;
+    border-radius: 5px;
+    color: #e9edc9;
+}
+
+#heroSub {
+    background: #445128;
+    margin: 2% 10%;
+    padding: 1% 2%;
+    border-radius: 5px;
+    color: #e9edc9;
+}
+
+#activities {
+    display: flex;
+    flex-direction: column;
+    background-color: #e9edc9;
+}
+
+#actList {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.circlePic {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    object-fit: center;
+}
+
+.act {
+    margin: 1% 2%;
+    padding: 1%;
+    width: 250px;
+}
+
+#guideDiv {
+    background-color: #bc6c25;
+    display: flex;
+    justify-content: center;
+}
+
+#card {
+    width: 400px;
+    height: 210px;
+    padding: 3%;
+    margin: 4% auto;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    background-color: #dda15e;
+
+    border-radius: 0px;
+    border-bottom: solid 7px #283618;
+    border-left: solid 7px #283618;
+}
+
+#guideRight {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#guideTitle{
+    margin: 0;
+}
+
+#guideSub{
+    margin: 4%;
+}
+
+#guideGraph {
+    margin: 0 4%;
+}
+
+#pacPic {
+    width: 150px;
+    height: 200px;
+    border-radius: 0px;
+    object-fit: cover;
+    margin: 0 2%;
+    border: solid 4px #283618;
+    /* border-left: solid 4px #283618; */
+}
